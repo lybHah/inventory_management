@@ -13,3 +13,6 @@ build
 venv/
 ENV/
 
+# idea
+.idea
+
