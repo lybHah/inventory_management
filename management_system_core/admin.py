@@ -1,3 +1,10 @@
 from django.contrib import admin
+from management_system_core.models import (
+    Statistics,
+    ElectronicProduct,
+    OfficeProduct
+)
 
-# Register your models here.
+admin.site.register(Statistics)
+admin.site.register(ElectronicProduct)
+admin.site.register(OfficeProduct)
